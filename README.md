@@ -1,6 +1,6 @@
 # 全国ハザードマップ on MapLibre GL JS
 ## Public Website
-https://shi-works.github.io/japan-hazard-map-on-maplibre-gl-js/#16.29/35.733868/139.797143/22.4/67
+https://shiwaku.github.io/japan-hazard-map-on-maplibre/#16.29/35.733868/139.797143/22.4/67
 
 ![image](https://github.com/shi-works/japan-hazard-map-on-maplibre-gl-js/assets/71203808/6164ba8e-aa32-41b4-84ad-6203c5096863)
 
