@@ -20,7 +20,7 @@ export function addPlateauLayer(
   if (!map.getSource('plateau-pmtiles')) {
     map.addSource('plateau-pmtiles', {
       type: 'vector',
-      url: 'pmtiles://https://shiworks.xsrv.jp/pmtiles-data/plateau/PLATEAU_2023_LOD0.pmtiles',
+      url: 'pmtiles://https://shi-works.com/pmtiles/plateau/PLATEAU_2023_LOD0.pmtiles',
       minzoom: 16,
       maxzoom: 16,
       attribution:

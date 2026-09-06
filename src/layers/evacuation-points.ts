@@ -29,7 +29,7 @@ export function addEvacuationPointLayers(
   if (!map.getSource('hinanbasho')) {
     map.addSource('hinanbasho', {
       type: 'vector',
-      url: 'pmtiles://https://xs489works.xsrv.jp/pmtiles-data/gsi/hinanbasho/hinanbasho_20240129.pmtiles',
+      url: 'pmtiles://https://shi-works.com/pmtiles/gsi/hinanbasho/hinanbasho_20240129.pmtiles',
       attribution:
         "<a href='https://www.gsi.go.jp/bousaichiri/hinanbasho.html'>指定緊急避難場所データ（国土地理院Webサイト）を加工して作成</a>",
     });
@@ -63,7 +63,7 @@ export function addEvacuationPointLayers(
   if (!map.getSource('denshouhi')) {
     map.addSource('denshouhi', {
       type: 'geojson',
-      data: 'https://xs489works.xsrv.jp/pmtiles-data/gsi/denshouhi/20240125.geojson',
+      data: 'https://shi-works.com/pmtiles/gsi/denshouhi/20240125.geojson',
       attribution:
         "<a href='https://www.gsi.go.jp/bousaichiri/denshouhi_datainfo.html'>自然災害伝承碑データ（国土地理院Webサイト）</a>",
     });
